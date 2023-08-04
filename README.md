@@ -14,3 +14,8 @@ In particular the repo contains:
     masking_images: this notebook contains the passages applied to masking out relevant areas. First of all the areas corresponding to the relevant parts highlighted by CAM-based techniques. Then the areas corresponding to the failed components of the pictures segmented using external tools.
 
 - cam: a folder containing the notebook used to apply CAM-based techniques.
+
+- examples: a folder containing some examples of the steps applied:
+    defective folder: contains ten randomly selected pictures of "defective" PCB, which are correctly classified by the model
+    masked_cam: contains an example of a portion of board where areas detected by the CAM-based techniques are masked out
+    masked_components: contains an example of a portion of board where failed components are masekd out
