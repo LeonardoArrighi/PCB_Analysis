@@ -20,3 +20,4 @@ In particular the repo contains:
     cam_results: contains an example of a portion of board correctly defined as "defective" analyzed with the CAM-based techniques
     masked_cam: contains an example of a portion of board where areas detected by the CAM-based techniques are masked out
     masked_components: contains an example of a portion of board where failed components are masekd out
+    gradCAM: contains the analysis of ten randomly selected pictures classified as "defective" by the model analyzed using GradCAM
