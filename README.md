@@ -11,3 +11,4 @@ In particular the repo contains:
 - notebooks: a folder containing the notebooks used to check and plot results:
     plot: results of the training
     analysis: tests of the model
+    masking_images: this notebook contains the passages applied to masking out relevant areas. First of all the areas corresponding to the relevant parts highlighted by CAM-based techniques. Then the areas corresponding to the failed components of the pictures segmented using external tools.
