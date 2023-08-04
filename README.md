@@ -17,5 +17,6 @@ In particular the repo contains:
 
 - examples: a folder containing some examples of the steps applied:
     defective folder: contains ten randomly selected pictures of "defective" PCB, which are correctly classified by the model
+    cam_results: contains an example of a portion of board correctly defined as "defective" analyzed with the CAM-based techniques
     masked_cam: contains an example of a portion of board where areas detected by the CAM-based techniques are masked out
     masked_components: contains an example of a portion of board where failed components are masekd out
